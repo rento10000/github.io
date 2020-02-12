@@ -1,39 +1,42 @@
-* {
-  ボックスサイズ：ボーダーボックス;
+* {.title {
+  color: #02ccba;
+}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
 }
 
-体 {
-  マージン：0;
-  フォントファミリー：「ひらぎの角ゴシックProN」;
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
 
-{
-  テキスト装飾：なし;
+li {
+  list-style: none;
 }
 
-.container {
-  幅：100％;
-  パディング：0 15px;
-  マージン：0自動;
+a {
+  text-decoration: none;
+}html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
 }
 
-.top-wrapper {
-  パディング：180px 0 100px 0;
-  背景画像：url（top.png）;
-  背景サイズ：カバー;
-  色：白;
-  text-align：center;
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
 
-.top-wrapper h1 {
-  不透明度：0.7;
-  フォントサイズ：45px;
-  文字間隔：5px;
+li {
+  list-style: none;
 }
 
-.top-wrapper p {
-  不透明度：0.7;
-  フォントサイズ：16px;
+a {
+  text-decoration: none;
+}
+
   余白：40ピクセル;
 }
 
