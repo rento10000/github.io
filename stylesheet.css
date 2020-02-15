@@ -1,13 +1,19 @@
 .title {
   color: #02ccba;
 }
-
-body {
-  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
 }
 
 .progress {
-  background-corlor: silver;
+  background-color: coral
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
 
 li {
